@@ -1,0 +1,265 @@
+@media (min-width:990px){
+    .third_ul{
+        flex-wrap: wrap;  
+    }
+    .menu_main{
+        text-align: right;
+    }
+    
+}
+
+@media (max-width:990px) {
+    
+    header{
+        display: none;
+    }
+    .third_ul{
+        display: none;
+    }
+    .toggle{
+        display: inline;
+        
+        font-size: 25px;
+    }
+    .cards{
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 42%;
+    }
+    .blue_sec{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .all_cards{
+        flex-wrap: wrap;
+    }
+    .card_1, 
+    .card_2{
+        width: 35%;
+    }
+    .card_3{
+        width: 48%;
+    }
+    .all_divs{
+        flex-wrap: wrap;
+    }
+    .big_div{
+        width: 75%;
+    }
+    .small_div{
+        width: 100%;
+    }
+    
+    .the_four{
+        flex-wrap: wrap;
+    }
+    .icon_num {
+        width: 50%;
+    }
+    .the_six {
+        flex-wrap: wrap;
+    }
+    .the_one{
+        width: 50%;
+    }
+    .the_little_photo{
+        width: 48%;
+    }
+    .one_person{
+        width: 46%;
+    }
+    .big_table{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .fir_tabl, 
+    .sec_tabl, 
+    .thir_tabl{
+        width: 46%;
+        margin-right: 4%;
+    }
+    .subscribe{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .form_two{
+        width: 85%;
+    }
+    .three_blogs{
+        flex-wrap: wrap;
+    }
+    .each_blog{
+        width: 40%;
+    }
+    .person_image{
+        display: none;
+    }
+    .each_image{
+        width: 48%;
+    }
+    .about::before {
+        left: 490px;
+        top: 65px;
+    }
+    .about::after {
+        right: 490px;
+        top: 65px;
+    }
+    .about_line::before{
+        left: 490px;
+        top: 60px;
+    }
+    .about_line::after{
+        right: 490px;
+        top: 60px;
+    }
+
+    .our_ser::before {
+        left: 515px;
+        top: 90px;
+    }
+    .our_ser::after {
+        right: 515px;
+        top: 90px;
+    }
+    .our_ser_line::before{        
+        left: 515px;
+        top: 85px;
+    }
+    .our_ser_line::after{        
+        right: 515px;
+        top: 85px;
+    }
+    .Our_work::before {
+        left: 210px;
+    top: 90px;
+    }
+    .Our_work::after {
+        right: 210px;
+    top: 90px;
+    }
+    .our_work_line::before {
+        left: 210px;
+        top: 85px;
+    }
+    .our_work_line::after {
+        right: 210px;
+        top: 85px;
+    }
+
+
+    .late_Blog::before{
+        right: 250px;
+        top: 90px;
+    }
+    .late_Blog::after{
+        right: 250px;
+        top: 90px;
+    }
+
+    .our_blog_line::before{
+        left: -48px;
+        top: 85px;
+    }
+    .our_blog_line::after{
+        right: -48px;
+        top: 85px;
+    }
+}
+
+@media (max-width:767px){
+    
+    .last_section{
+        padding: 5% 5% 5% 1%;
+    }
+    .all_cards{
+        flex-wrap: wrap;
+
+    }
+    .card_1, 
+    .card_2{
+        width:100%;
+    }
+    .card_3{
+        width: 100%;
+    }
+    .card_1 h4::after, .card_2 h4::after, .card_3 h4::after {
+        top: 85px;
+    }
+    .the_one{
+        width: 100%;
+    }
+    .each_blog{
+        width: 100%;
+    }
+    .down_blog{
+        flex-direction: column;
+    }
+    .contact_div{
+        padding: 2%;
+        
+    }
+    .fifth_ul{
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+
+    }
+    .fifth_ul li {
+        margin: 2%;
+    }
+
+    .p_blog{
+        display:-webkit-box;
+        -webkit-line-clamp:2 ;
+        line-clamp: 2;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+    }
+    
+    .slider_txt h2{
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 4%;
+    }
+    .slider_txt p{
+        display: none;
+    }
+
+    
+    
+}
+
+
+
+
+@media (max-width:575px){
+    .the_little_photo{
+        width: 100%;
+    }
+    .fourth_ul{
+        flex-wrap: wrap;
+    }
+    .fourth_ul li{
+    margin-left: 1%;
+    }
+    .one_person{
+        width: 100%;
+    }
+    #input_sub{
+        width: 100%;
+    }
+    .left_mail_p {
+        font-size: 25px;
+        margin: 10px 10px 15px;
+    }
+    .butt_sub{
+        margin: 15px 35%;
+    }
+    .each_image{
+        width: 100%;
+    }
+    
+}

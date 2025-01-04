@@ -1,0 +1,101 @@
+@media (min-width:990px){
+
+
+    .third_ul{
+        flex-wrap: wrap;
+        
+    }
+    .menu_main{
+        text-align: right;
+    }
+}
+
+
+
+
+@media (max-width:990px) {
+    
+    header{
+        display: none;
+    }
+    .third_ul{
+        display: none;
+    }
+    .toggle{
+        display: inline;
+        
+        font-size: 25px;
+    }
+    .cards{
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 42%;
+    }
+    .form_one{
+        flex-direction: column;
+        
+    }
+    .input_1,
+    .input_2,
+    .input_3{
+        width: 100%;
+    }
+    #input_1,
+    #input_2,
+    #input_3{
+        padding-left: 5%;
+        padding-top: 1%;
+    }
+    #input_4{
+        width: 100%;
+        padding-left: 4%;
+    }
+    #form_button{
+        margin: 1%;
+    }
+    .blue_sec{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .all_cards{
+        flex-wrap: wrap;
+    }
+    .card_1, 
+    .card_2{
+        width: 35%;
+    }
+    .card_3{
+        width: 48%;
+    }
+}
+
+@media (max-width:767px){
+    
+    .last_section{
+        padding: 5% 5% 5% 1%;
+    }
+    .all_cards{
+        flex-wrap: wrap;
+
+    }
+    .card_1, 
+    .card_2{
+        width:100%;
+    }
+    .card_3{
+        width: 100%;
+    }
+    .card_1 h4::after, .card_2 h4::after, .card_3 h4::after {
+        top: 85px;
+    }
+}
+
+@media (max-width:575px){
+    .cards{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
